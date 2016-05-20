@@ -7,7 +7,23 @@
 //
 
 #import <UIKit/UIKit.h>
+//#import <Foundation/Foundation.h>
+#import "MyView.h"
+#import "SupportCondition.h"
+#import "MaterialSelection.h"
+#import "ProcessModule.h"
+@interface ViewController : UIViewController <LoadConditionDelegate, SupportConditionDelegate, MaterialSelectionDelegate>
 
-@interface ViewController : UIViewController
+@property (strong, nonatomic) IBOutlet MyView *myViewData;
+@property int drawMode;
+@property NSArray * loadSelectionArrayNumbers;
+@property NSNumber * supportSelectionNumber;
+@property NSArray * materialProperties;
+@property NSArray * nodalConnecivity;
+@property NSArray * nodalCoordinates;
+@property NSArray * loadData;
+@property NSArray * supportData;
+
+
 
 @end

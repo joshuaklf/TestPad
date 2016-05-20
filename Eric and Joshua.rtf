@@ -1,0 +1,33 @@
+{\rtf1\ansi\ansicpg1252\cocoartf1348\cocoasubrtf170
+{\fonttbl\f0\fnil\fcharset0 Menlo-Regular;}
+{\colortbl;\red255\green255\blue255;\red170\green13\blue145;\red92\green38\blue153;\red46\green13\blue110;
+\red196\green26\blue22;\red63\green110\blue116;\red28\green0\blue207;\red0\green116\blue0;\red38\green71\blue75;
+}
+\margl1440\margr1440\vieww9000\viewh8400\viewkind0
+\deftab529
+\pard\tx529\pardeftab529\pardirnatural
+
+\f0\fs22 \cf0 \CocoaLigature0 -(\cf2 void\cf0 ) touchesBegan:(\cf3 NSSet\cf0  *)touches withEvent:(\cf3 UIEvent\cf0  *)event\{\
+    \cf3 NSSet\cf0  *allTouches = [event \cf4 allTouches\cf0 ];\
+    \cf4 NSLog\cf0 (\cf5 @"mode %li"\cf0 ,(\cf2 long\cf0 )\cf2 self\cf0 .\cf6 drawMode\cf0 );\
+    \cf3 UITouch\cf0  *touch = [[allTouches \cf4 allObjects\cf0 ]\cf4 objectAtIndex\cf0 :\cf7 0\cf0 ];\
+    \cf3 CGPoint\cf0  point = [touch \cf4 locationInView\cf0 :\cf2 self\cf0 ];\
+    \
+    \cf2 switch\cf0  (\cf2 self\cf0 .\cf6 drawMode\cf0 ) \{\
+        \cf2 case\cf0  \cf7 3\cf0 :\{\
+            \cf8 //self.del = (double *)malloc(([self.nodalCoordinates count])*2*sizeof(double));\cf0 \
+            \cf3 CGPoint\cf0  pointed = [\cf2 self\cf0  \cf9 roundPoint\cf0 : point];\
+            \cf3 NSArray\cf0  * nodeCoordinatestoDisplay = [[\cf3 NSArray\cf0  \cf4 alloc\cf0 ]\cf4 init\cf0 ];\
+            nodeCoordinatestoDisplay = [\cf2 self\cf0  \cf9 getCoords\cf0 :pointed];\
+            \cf2 BOOL\cf0  duplicate = [\cf2 self\cf0 .\cf6 nodalCoordinates\cf0  \cf4 containsObject\cf0 :nodeCoordinatestoDisplay];\
+            \
+            \cf2 if\cf0  (duplicate ==\cf7 1\cf0 ) \{\
+                \cf3 NSInteger\cf0  nodeSelected = [\cf2 self\cf0 .\cf6 nodalCoordinates\cf0  \cf4 indexOfObject\cf0 :nodeCoordinatestoDisplay] + \cf7 1\cf0 ;\
+                \cf2 float\cf0  xDisp = \cf2 self\cf0 .\cf6 del\cf0 [\cf7 2\cf0 *nodeSelected - \cf7 2\cf0 ];\
+                \
+                \cf2 float\cf0  yDisp = \cf2 self\cf0 .\cf6 del\cf0 [\cf7 2\cf0 *nodeSelected - \cf7 1\cf0 ];\
+                \
+                \
+                \cf3 NSString\cf0  *dispString = [\cf3 NSString\cf0  \cf4 stringWithFormat\cf0 :\cf5 @"Node %li Displacement: (x: %f, y: %f)"\cf0 ,(\cf2 long\cf0 )nodeSelected,xDisp,yDisp];\
+                \
+                [\cf2 self\cf0 .\cf6 dispReading\cf0  \cf4 setText\cf0 :dispString];}

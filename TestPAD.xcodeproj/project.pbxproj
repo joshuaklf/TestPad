@@ -7,6 +7,13 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		6AB822881C1547E400263AC4 /* Eric and Joshua.rtf in Resources */ = {isa = PBXBuildFile; fileRef = 6AB822871C1547E400263AC4 /* Eric and Joshua.rtf */; };
+		7B6FBE19195DFF51000D9D1D /* LoadCondition.m in Sources */ = {isa = PBXBuildFile; fileRef = 7B6FBE18195DFF51000D9D1D /* LoadCondition.m */; };
+		7B6FBE1C1960E864000D9D1D /* SupportCondition.m in Sources */ = {isa = PBXBuildFile; fileRef = 7B6FBE1B1960E864000D9D1D /* SupportCondition.m */; };
+		7BB4F2C9197991C700ADF78B /* testMatrix.m in Sources */ = {isa = PBXBuildFile; fileRef = 7BB4F2C8197991C700ADF78B /* testMatrix.m */; };
+		7BC92AEF1971D9BE00D2BBC8 /* ProcessModule.m in Sources */ = {isa = PBXBuildFile; fileRef = 7BC92AEE1971D9BE00D2BBC8 /* ProcessModule.m */; };
+		7BC92AF11972D33A00D2BBC8 /* MyViewCopy in Resources */ = {isa = PBXBuildFile; fileRef = 7BC92AF01972D33A00D2BBC8 /* MyViewCopy */; };
+		7BC92AF41972EBB600D2BBC8 /* AnalysisView.m in Sources */ = {isa = PBXBuildFile; fileRef = 7BC92AF31972EBB600D2BBC8 /* AnalysisView.m */; };
 		7BEC3672194149C200B10CBC /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 7BEC3671194149C200B10CBC /* Foundation.framework */; };
 		7BEC3674194149C200B10CBC /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 7BEC3673194149C200B10CBC /* CoreGraphics.framework */; };
 		7BEC3676194149C200B10CBC /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 7BEC3675194149C200B10CBC /* UIKit.framework */; };
@@ -21,6 +28,8 @@
 		7BEC3693194149C200B10CBC /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 7BEC3675194149C200B10CBC /* UIKit.framework */; };
 		7BEC369B194149C200B10CBC /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 7BEC3699194149C200B10CBC /* InfoPlist.strings */; };
 		7BEC369D194149C200B10CBC /* TestPADTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 7BEC369C194149C200B10CBC /* TestPADTests.m */; };
+		7BEC36A819423B5900B10CBC /* MyView.m in Sources */ = {isa = PBXBuildFile; fileRef = 7BEC36A719423B5900B10CBC /* MyView.m */; };
+		7BEDA36C196C88EC0079F75A /* MaterialSelection.m in Sources */ = {isa = PBXBuildFile; fileRef = 7BEDA36B196C88EC0079F75A /* MaterialSelection.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -34,6 +43,18 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		6AB822871C1547E400263AC4 /* Eric and Joshua.rtf */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.rtf; path = "Eric and Joshua.rtf"; sourceTree = "<group>"; };
+		7B6FBE17195DFF50000D9D1D /* LoadCondition.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LoadCondition.h; sourceTree = "<group>"; };
+		7B6FBE18195DFF51000D9D1D /* LoadCondition.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LoadCondition.m; sourceTree = "<group>"; };
+		7B6FBE1A1960E864000D9D1D /* SupportCondition.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SupportCondition.h; sourceTree = "<group>"; };
+		7B6FBE1B1960E864000D9D1D /* SupportCondition.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SupportCondition.m; sourceTree = "<group>"; };
+		7BB4F2C7197991C700ADF78B /* testMatrix.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = testMatrix.h; sourceTree = "<group>"; };
+		7BB4F2C8197991C700ADF78B /* testMatrix.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = testMatrix.m; sourceTree = "<group>"; };
+		7BC92AED1971D9BE00D2BBC8 /* ProcessModule.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ProcessModule.h; sourceTree = "<group>"; };
+		7BC92AEE1971D9BE00D2BBC8 /* ProcessModule.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ProcessModule.m; sourceTree = "<group>"; };
+		7BC92AF01972D33A00D2BBC8 /* MyViewCopy */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = MyViewCopy; sourceTree = "<group>"; };
+		7BC92AF21972EBB600D2BBC8 /* AnalysisView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AnalysisView.h; sourceTree = "<group>"; };
+		7BC92AF31972EBB600D2BBC8 /* AnalysisView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AnalysisView.m; sourceTree = "<group>"; };
 		7BEC366E194149C200B10CBC /* TestPAD.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = TestPAD.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		7BEC3671194149C200B10CBC /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
 		7BEC3673194149C200B10CBC /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
@@ -53,6 +74,10 @@
 		7BEC3698194149C200B10CBC /* TestPADTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "TestPADTests-Info.plist"; sourceTree = "<group>"; };
 		7BEC369A194149C200B10CBC /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
 		7BEC369C194149C200B10CBC /* TestPADTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = TestPADTests.m; sourceTree = "<group>"; };
+		7BEC36A619423B5900B10CBC /* MyView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MyView.h; sourceTree = "<group>"; };
+		7BEC36A719423B5900B10CBC /* MyView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MyView.m; sourceTree = "<group>"; };
+		7BEDA36A196C88EC0079F75A /* MaterialSelection.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MaterialSelection.h; sourceTree = "<group>"; };
+		7BEDA36B196C88EC0079F75A /* MaterialSelection.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MaterialSelection.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -82,6 +107,9 @@
 		7BEC3665194149C200B10CBC = {
 			isa = PBXGroup;
 			children = (
+				6AB822871C1547E400263AC4 /* Eric and Joshua.rtf */,
+				7BB4F2C7197991C700ADF78B /* testMatrix.h */,
+				7BB4F2C8197991C700ADF78B /* testMatrix.m */,
 				7BEC3677194149C200B10CBC /* TestPAD */,
 				7BEC3696194149C200B10CBC /* TestPADTests */,
 				7BEC3670194149C200B10CBC /* Frameworks */,
@@ -115,6 +143,19 @@
 				7BEC3680194149C200B10CBC /* AppDelegate.h */,
 				7BEC3681194149C200B10CBC /* AppDelegate.m */,
 				7BEC3683194149C200B10CBC /* Main.storyboard */,
+				7BC92AF21972EBB600D2BBC8 /* AnalysisView.h */,
+				7BC92AF31972EBB600D2BBC8 /* AnalysisView.m */,
+				7BC92AED1971D9BE00D2BBC8 /* ProcessModule.h */,
+				7BC92AEE1971D9BE00D2BBC8 /* ProcessModule.m */,
+				7BEDA36A196C88EC0079F75A /* MaterialSelection.h */,
+				7BEDA36B196C88EC0079F75A /* MaterialSelection.m */,
+				7B6FBE1A1960E864000D9D1D /* SupportCondition.h */,
+				7B6FBE1B1960E864000D9D1D /* SupportCondition.m */,
+				7B6FBE17195DFF50000D9D1D /* LoadCondition.h */,
+				7B6FBE18195DFF51000D9D1D /* LoadCondition.m */,
+				7BEC36A619423B5900B10CBC /* MyView.h */,
+				7BEC36A719423B5900B10CBC /* MyView.m */,
+				7BC92AF01972D33A00D2BBC8 /* MyViewCopy */,
 				7BEC3686194149C200B10CBC /* ViewController.h */,
 				7BEC3687194149C200B10CBC /* ViewController.m */,
 				7BEC3689194149C200B10CBC /* Images.xcassets */,
@@ -228,8 +269,10 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				6AB822881C1547E400263AC4 /* Eric and Joshua.rtf in Resources */,
 				7BEC368A194149C200B10CBC /* Images.xcassets in Resources */,
 				7BEC367C194149C200B10CBC /* InfoPlist.strings in Resources */,
+				7BC92AF11972D33A00D2BBC8 /* MyViewCopy in Resources */,
 				7BEC3685194149C200B10CBC /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -249,9 +292,16 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				7BEC36A819423B5900B10CBC /* MyView.m in Sources */,
 				7BEC3688194149C200B10CBC /* ViewController.m in Sources */,
+				7BEDA36C196C88EC0079F75A /* MaterialSelection.m in Sources */,
+				7BC92AF41972EBB600D2BBC8 /* AnalysisView.m in Sources */,
 				7BEC3682194149C200B10CBC /* AppDelegate.m in Sources */,
 				7BEC367E194149C200B10CBC /* main.m in Sources */,
+				7BB4F2C9197991C700ADF78B /* testMatrix.m in Sources */,
+				7B6FBE1C1960E864000D9D1D /* SupportCondition.m in Sources */,
+				7B6FBE19195DFF51000D9D1D /* LoadCondition.m in Sources */,
+				7BC92AEF1971D9BE00D2BBC8 /* ProcessModule.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -458,6 +508,7 @@
 				7BEC36A2194149C200B10CBC /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		7BEC36A3194149C200B10CBC /* Build configuration list for PBXNativeTarget "TestPADTests" */ = {
 			isa = XCConfigurationList;
@@ -466,6 +517,7 @@
 				7BEC36A5194149C200B10CBC /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
